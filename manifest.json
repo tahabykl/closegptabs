@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Close ChatGPT Tabs",
+  "version": "1.0",
+  "description": "Closes all tabs with domain 'chat.openai.com' or 'chatgpt.com' when clicked.",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_title": "Close ChatGPT Tabs",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
